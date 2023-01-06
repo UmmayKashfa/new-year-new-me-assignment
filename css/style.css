@@ -8,10 +8,10 @@
   font-size: 20px;
   padding: 20px 26px;
   border-radius: 5px;
-  border: 1px solid #d20801;
   background-color: transparent;
-  /* background-color: #FF4843; */
-  color: #dc0801;
+  background-color:#F15B22;
+  color: #ffffff;
+  border: none;
 }
 
 /* header style */
@@ -33,21 +33,38 @@
   font-size: 65px;
   color: #151414;
 }
-.header-description {
+.description {
   color: #444343;
   margin-top: 25px;
   margin-bottom: 30px;
+  line-height: 30px;
 }
 .button{
     text-align: right;
 }
-/* Failure style */
+/* my Failure style */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
-.failures{
+.myfailures{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 130px 0;
+    gap: 80px;
 }
+.section-title{
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.myfailures-list li{
+  list-style: none;
+}
+.myfailures-list li i{
+  margin: 8px 0;
+  color: #3adb98;
+}
+
+/* My plans style */
