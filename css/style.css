@@ -8,9 +8,10 @@
   font-size: 20px;
   padding: 20px 26px;
   border-radius: 5px;
+  border: 1px solid #d20801;
   background-color: transparent;
-  border:1px solid #005FAC;
-  color: #01569c;
+  /* background-color: #FF4843; */
+  color: #dc0801;
 }
 
 /* header style */
@@ -39,4 +40,14 @@
 }
 .button{
     text-align: right;
+}
+/* Failure style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
