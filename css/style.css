@@ -8,8 +8,7 @@
   font-size: 20px;
   padding: 20px 26px;
   border-radius: 5px;
-  background-color: transparent;
-  background-color:#F15B22;
+  background-color: #f15b22;
   color: #ffffff;
   border: none;
 }
@@ -39,32 +38,72 @@
   margin-bottom: 30px;
   line-height: 30px;
 }
-.button{
-    text-align: right;
+.button {
+  text-align: right;
 }
 /* my Failure style */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.myfailures{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 130px 0;
-    gap: 80px;
+.myfailures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 0;
+  gap: 80px;
 }
-.section-title{
+.section-title {
   color: #151414;
   font-size: 40px;
   font-weight: 700;
 }
-.myfailures-list li{
+.myfailures-list li {
   list-style: none;
 }
-.myfailures-list li i{
+.myfailures-list li i {
   margin: 8px 0;
   color: #3adb98;
 }
 
 /* My plans style */
+.myplans .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.myplan-description {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.myplan-description .section-title {
+  font-size: 30px;
+  margin: 16px 0;
+  text-align: center;
+}
+.myplan-description .myplan-sub-title {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+/* call-section style */
+.call{
+  background-image: url('../images/watch.png'),url('../images/gradient2.png');
+  background-blend-mode:multiply;
+  padding: 60px 50px;
+  margin: 130px 0;
+}
+.call .section-title{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.call .btn-primary{
+  color: #f15b22;
+  background-color: #ffffff;
+  border: 1px solid #f15b22;
+}
+/* footer */
+.footer{
+  
+}
