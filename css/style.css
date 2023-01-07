@@ -65,6 +65,44 @@ main {
   margin: 8px 0;
   color: #3adb98;
 }
+/* what to do */
+.how-to-do{
+  margin-bottom: 130px;
+}
+.how-to-do .section-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.how-to-do-description{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.how-to-do-description .sub-description img{
+  color: #F8F8F8;
+  height: 60px;
+  width: 60px;
+}
+.how-to-do-description .section-title{
+  text-align: left;
+  font-size: 30px;
+  margin: 25px 0;
+  font-weight: 600;
+}
+.sub-description{
+  padding: 50px 40px;
+  background-color: #fbfaea;
+  border-radius: 5px;
+  box-shadow: 0 6px 60px rgb(233, 233, 233);
+  border-left: 1px solid #e6e6e6;
+  border-bottom: 1px solid #fbe8e0;
+}
+.color{
+  background-color: #f9eaea;
+}
+.color2{
+  background-color: #e3fbf4;
+}
 
 /* My plans style */
 .myplans .section-title {
@@ -106,7 +144,7 @@ main {
 /* footer */
 .footer{
   background-color: #151414;
-  padding: 130px 230px;
+  padding: 130px 200px;
 }
 .footer-description{
   display: flex;
@@ -133,7 +171,7 @@ main {
 .subscribe input{
   padding: 22px 18px;
   border-radius: 5px;
-  width: 100%;
+  width: 80%;
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
