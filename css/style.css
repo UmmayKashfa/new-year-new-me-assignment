@@ -36,7 +36,7 @@
   color: #444343;
   margin-top: 25px;
   margin-bottom: 30px;
-  line-height: 30px;
+  line-height: 28px;
 }
 .button {
   text-align: right;
@@ -105,5 +105,41 @@ main {
 }
 /* footer */
 .footer{
-  
+  background-color: #151414;
+  padding: 130px 230px;
+}
+.footer-description{
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+.future .section-title{
+  font-size: 45px;
+  color: #F8F8F8;
+}
+.future .description{
+  color: #FFFFFF;
+}
+.future .future-icon a{
+  text-decoration: none;
+  margin-right: 18px;
+}
+.subscribe .section-title{
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.subscribe input{
+  padding: 22px 18px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.subscribe .btn-primary{
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: #f15b22;
 }
