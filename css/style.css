@@ -149,7 +149,7 @@ main {
 .footer-description{
   display: flex;
   justify-content: space-between;
-  gap: 300px;
+  gap: 205px;
 }
 .future .section-title{
   font-size: 45px;
